@@ -1,6 +1,6 @@
 name: "ipam-in-cluster"
 config:
-  image: "gcr.io/k8s-staging-capi-ipam-ic/cluster-api-ipam-in-cluster-controller"
+  image: "linux-docker-staging-local.repo.pnet.ch/rebertimn/ipam:latest"
   live_reload_deps:
   - main.go
   - go.mod
